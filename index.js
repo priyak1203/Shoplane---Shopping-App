@@ -23,7 +23,7 @@ function createHomePageProductCard(obj) {
 
     var productLink = document.createElement('a');                // Making the card Clickable
     productLink.classList.add("product-link");
-    productLink.href="/details.html?p="+obj.id;
+    productLink.href="https://priyak1203.github.io/details.html?p="+obj.id;
     // productCard.appendChild(productLink);
 
     var productImage = document.createElement('img');             // Product - Image
